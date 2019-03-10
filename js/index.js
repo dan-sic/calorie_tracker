@@ -8,7 +8,7 @@ const AppCtrl = (function(DataCtrl, UICtrl, StorageCtrl) {
       data.calories !== "" &&
       !isNaN(parseInt(data.calories))
     ) {
-      // Add item do data structure
+      // Add item to data structure
       const item = DataCtrl.addItemToDataStructure(data);
 
       // Add item to LS
